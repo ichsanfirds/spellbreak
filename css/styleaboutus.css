@@ -1,0 +1,125 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+  background-color: black;
+}
+
+
+.header{
+  background-color: black ;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(254, 196, 112);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(239, 183, 98);
+}
+
+.mainimage {
+  background-image: url(../image/background4.png);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kotak{
+  background-color: black;
+  width: 100%;
+  height: 5px;
+}
+
+.text1{
+  padding: 50px;
+  text-align: justify;
+  background-color: rgb(254, 196, 112);
+}
+
+.text1 b{
+  font-size: 20px;
+}
+
+.text1 p{
+  font-size: 80%;
+}
+
+.text2{
+  text-align: justify;
+  background-color: rgb(254, 196, 112);
+}
+
+.text2 b{
+  font-size: 30px;
+}
+
+h1{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(254, 196, 112);
+}
+
+.text2 p{
+  font-size: 80%;
+}
+
+.kotak2{
+  height: 150px;
+  width: 100%;
+  background-color: black;
+}
+
+.textcontainer{
+  display: flex;
+}
+
+
+.pict{
+  background-color: rgb(254, 196, 112);
+  padding-bottom: 80px;
+}
+
+.pict2{
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+
+
+.content{
+  background-color: rgb(254, 196, 112);
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
